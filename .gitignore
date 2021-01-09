@@ -1,0 +1,10 @@
+# Environment varibales
+.env*
+!.env*.example
+
+# Code coverage
+coverage
+
+.idea/
+.editorconfig
+.gitattributes
