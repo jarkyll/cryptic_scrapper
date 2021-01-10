@@ -1,0 +1,15 @@
+FROM something
+
+RUN mkdir
+
+WORKDIR
+
+COPY
+
+USER
+
+RUN
+
+COPY
+
+EXPOSE

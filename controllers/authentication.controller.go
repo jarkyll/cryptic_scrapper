@@ -7,7 +7,7 @@ import (
 )
 
 func HandleRegister(context *gin.Context) {
-	request, exists := context.Get("request")
+	_, exists := context.Get("request")
 	if !exists {
 		// TODO add logger
 		context.AbortWithStatus(http.StatusInternalServerError)

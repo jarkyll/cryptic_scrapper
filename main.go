@@ -4,7 +4,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/kamva/mgm/v3"
 	"go.mongodb.org/mongo-driver/mongo/options"
-	"golang-boilerplate/routers"
+	"golang-boilerplate/service"
 	"log"
 	"os"
 )
@@ -22,12 +22,13 @@ func main() {
 	}
 
 
+	service.Test()
 
-	server := routers.NewRouter()
-
-
-
-	server.Run("localhost:8080")
+	//server := routers.NewRouter()
+	//
+	//
+	//
+	//server.Run("localhost:8080")
 }
 
 
